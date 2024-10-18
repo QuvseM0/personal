@@ -3,6 +3,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
     
+body{
+    height: 100vh;
+    min-width: 100vh;
+}
+
 .content{
     display: flex;
     flex-direction: column;
@@ -31,12 +36,11 @@
 }
 .body-content{
     display: flex;
-    margin-top: 20vh;
     align-items: center;
     justify-content: space-evenly;
     color: #F8EDED;
     background-color: #b43f3f3a;
-    padding: 20vh 18vw;
+    padding: 18vh 18vw;
 }
 
 .title{
@@ -45,7 +49,7 @@
 .footer{
     display: flex;
     background-color: #173B45;
-    height: 4vh;
+    min-height: 4vh;
     align-items: center;
     justify-content: flex-end;
     padding: 0px 40px;
@@ -55,7 +59,13 @@
 .fodido{
     font-size: 0.9vw;
 }
-.signup{
+
+
+.image{
     display: flex;
     flex-direction: column;
+}
+.gay{
+    height: 30rem;
+    min-width: 1rem;
 }
